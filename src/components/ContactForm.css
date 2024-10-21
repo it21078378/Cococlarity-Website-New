@@ -1,0 +1,77 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 50px;
+  }
+  
+  .contact-left {
+    width: 60%;
+  }
+  
+  .contact-right {
+    width: 35%;
+    padding-top: 40px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #38bfa4; /* Adjust for your brand color */
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  button {
+    padding: 10px;
+    background: linear-gradient(to right, #38bfa4, #2b9b6e);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #2b9b6e, #38bfa4);
+  }
+  
+  .contact-right p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .contact-right a {
+    color: #38bfa4;
+    text-decoration: none;
+  }
+  
+  .contact-right a:hover {
+    text-decoration: underline;
+  }
+  

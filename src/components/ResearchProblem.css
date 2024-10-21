@@ -1,0 +1,52 @@
+.research-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .research-box {
+    border: 2px solid #37b96b; /* Use a similar green */
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .research-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .research-icon {
+    background-color: #37b96b;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .icon-star {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .research-details h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .research-details p, .research-details ul {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .research-details ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  

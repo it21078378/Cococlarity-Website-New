@@ -1,0 +1,82 @@
+.team-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.team-container h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  flex: 0 1 30%; /* Ensures that each card takes about 30% of the row width */
+}
+
+.team-image {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.team-title {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.team-links {
+  margin-top: 15px;
+}
+
+.team-links a {
+  display: block;
+  margin: 5px 0;
+  color: #0073b1; /* LinkedIn color */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.team-links a:hover {
+  color: #005582; /* Darker LinkedIn color */
+}
+
+.team-links i {
+  margin-right: 5px;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .team-card {
+    flex: 0 1 45%; /* 2 cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-card {
+    flex: 0 1 100%; /* 1 card per row on very small screens */
+  }
+}

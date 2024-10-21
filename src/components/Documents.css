@@ -1,0 +1,74 @@
+.documents-container {
+    padding: 40px;
+    background-color: #e8f5e9; /* Light green background */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  h3 {
+    color: #38bfa4; /* Adjust to your brand color */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .documents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .document-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .document-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .document-header i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .document-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .document-footer span {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .document-footer a {
+    color: #38bfa4;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .document-footer a:hover {
+    text-decoration: underline;
+  }
+  
